@@ -1,0 +1,93 @@
+body{
+	background: #100d47;
+	color: #000;
+}
+div.tab {
+    overflow-y: hidden;
+    border: 1px solid #ff0900;
+    background-color: #ff0900;
+    color: #FFF;
+}
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #FFF;
+}
+div.tab button:hover {
+    background-color: #ddd;
+}
+div.body{
+	background: #FFF;
+	color: #000;
+	width: 90%;
+	height: 700px;
+	margin: auto;
+}
+div.body div.right{
+	border-left: 3px solid #000;
+	width: 20%;
+	height: 99%;
+	background: inherit;
+	float: right;
+}
+div.body div.left{
+	border-right: 3px solid #000;
+	width: 79%;
+	height: 99%;
+	background: inherit;
+	float: right;
+}
+div.body div.right div.sidebar{
+	background: inherit;
+	height: 100%;
+	width: 100%;
+}
+div.body div.left div.messages{
+	background: inherit;
+	height: 94%;
+	width: 100%;
+	border-bottom: 3px solid #000;
+	overflow-y: scroll;
+}
+div.body div.left div.send{
+	background: inherit;
+	height: 4%;
+	width: 100%;
+	border-top: 3px solid #000;
+}
+div.body div.left div.send form input{
+	width: 80%;
+}
+div.body div.left div.send form button{
+	width: 19%;
+}
+div.body div.left div.messages div.messag {
+	width: 45%;
+	background: #0a02ff;
+	border: 2px solid #000;
+	border-radius: 25px;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #FFF;
+}
+div.body div.left div.messages div.messags {
+	width: 45%;
+	background: #ff020a;
+	border: 2px solid #000;
+	border-radius: 25px;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	float: right;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #FFF;
+}
