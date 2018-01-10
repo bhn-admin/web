@@ -22,7 +22,7 @@ if (!isset($_SESSION['id'])) {
   	<div class="tab">
 	  <a href="index.php"><button>Home</button></a>
 	  <a href="chat.php"><button>Chat</button></a>
-	  <a href="inc/lgt.inc.php"><button style="float: right;">Log Out</button></a>
+	  <a href="inc/lgt.inc.php"><button style="float: right;">Log Out Dude</button></a>
 	  <a href="settngs.php"><button style="float: right;">Settings</button></a>
 	</div><br><br>
 	<div class="body">
